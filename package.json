@@ -4,7 +4,6 @@
   "private": true,
   "license": "UNLICENSED",
   "dependencies": {
-    "@ethersproject/logger": "^5.4.0",
     "@fluentui/react": "^8.14.8",
     "@polkadot/api": "4.5.1",
     "@polkadot/extension-dapp": "^0.39.1",
@@ -18,16 +17,17 @@
     "bn.js": "^5.2.0",
     "bn.js-typings": "^1.0.1",
     "bootstrap": "^5.0.1",
+    "ethers": "^5.4.4",
     "fs-extra": "^10.0.0",
     "office-ui-fabric-core": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web3subscriber": "file:../web3subscriber",
     "solidity": "file:../solidity",
     "substrate-ss58": "^1.0.3",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "web3subscriber": "file:../web3subscriber"
   },
   "scripts": {
     "start": "react-scripts start",
